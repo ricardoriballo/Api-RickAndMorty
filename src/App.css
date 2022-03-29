@@ -1,0 +1,50 @@
+body{
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  background-color: #00315c;
+
+}
+.btn{
+  border: none;
+  background: none;
+  
+}
+.home{
+  display: flex;
+
+}
+.pageSelector{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+
+
+ 
+}
+.card{
+  border-radius: 10px;
+  background-color: #007780;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  margin: 10px;
+  color: whitesmoke;
+}
+.info{
+  width:200px;
+  padding: 20px;
+  height: 100px;
+}
+
+img{
+  width:200px;
+  border-radius: 20px;
+  padding: 10px;
+}
